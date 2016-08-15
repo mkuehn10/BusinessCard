@@ -45,7 +45,7 @@
         android:fontFamily="sans-serif-condensed"
         android:gravity="center"
         android:padding="5dp"
-        android:text="1234 AnyStreet, AnyTown, USA 12345"
+        android:text="Specializing in 80s video games\n1234 AnyStreet, AnyTown, USA 12345"
         android:textColor="@android:color/white"
         android:textSize="18sp"
         android:textStyle="italic" />
