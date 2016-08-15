@@ -61,7 +61,7 @@
         android:fontFamily="sans-serif-condensed"
         android:gravity="center"
         android:padding="5dp"
-        android:text="info@vintagegames.com"
+        android:text="(123) 456-7890 / info@vintagegames.com"
         android:textColor="@android:color/white"
         android:textSize="14sp"
         android:textStyle="italic" />
