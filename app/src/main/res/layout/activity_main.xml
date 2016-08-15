@@ -7,9 +7,17 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="fitXY"
-        android:src="@drawable/body" />
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/atari" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitEnd"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/pacman" />
 
     <TextView
         android:id="@+id/name_box"
@@ -21,7 +29,7 @@
         android:fontFamily="sans-serif-condensed"
         android:gravity="center"
         android:padding="5dp"
-        android:text="Michael Kuehn"
+        android:text="Vintage Video Games"
         android:textColor="@android:color/white"
         android:textSize="36sp"
         android:textStyle="bold" />
@@ -37,13 +45,13 @@
         android:fontFamily="sans-serif-condensed"
         android:gravity="center"
         android:padding="5dp"
-        android:text="Future Java Developer"
+        android:text="1234 AnyStreet, AnyTown, USA 12345"
         android:textColor="@android:color/white"
         android:textSize="18sp"
         android:textStyle="italic" />
 
     <TextView
-        android:id="@+id/github_box"
+        android:id="@+id/email_box"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/title_box"
@@ -53,7 +61,7 @@
         android:fontFamily="sans-serif-condensed"
         android:gravity="center"
         android:padding="5dp"
-        android:text="GitHub: mkuehn10"
+        android:text="info@vintagegames.com"
         android:textColor="@android:color/white"
         android:textSize="14sp"
         android:textStyle="italic" />
